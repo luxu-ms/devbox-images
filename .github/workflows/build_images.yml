@@ -16,7 +16,7 @@ on:
 
 jobs:
   prepare:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     outputs:
       build: ${{ steps.packer-definitions.outputs.build }}
