@@ -1,9 +1,8 @@
 name: Build Images
 
-
 env:
-  galleryName: acgGalleryDev1
-  resourceGroup: rg-fidalgo-dev
+  galleryName: Contoso
+  resourceGroup: Compute-Gallery
 
 concurrency: ${{ github.ref }}
 
