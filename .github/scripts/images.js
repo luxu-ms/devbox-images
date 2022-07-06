@@ -154,7 +154,7 @@ module.exports = async ({ github, context, core, glob, exec, }) => {
     const matrix = {
         include: include
     };
-
+    core.info(`matrix:${matrix}`)
     core.setOutput('matrix', JSON.stringify(matrix));
     core.setOutput('build', matrix.include.length > 0);
 };
